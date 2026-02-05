@@ -247,18 +247,3 @@ curl -X POST "http://localhost:8000/task" \
 # Option C: Standalone test (no dependencies)
 python test_standalone.py
 ```
-
-## Evaluation Criteria
-
-| Criteria | Score | Status |
-|----------|-------|--------|
-| Agent Design | 25 | ✓ Clear separation, deterministic |
-| LLM Usage | 20 | ✓ Structured outputs, JSON schemas |
-| API Integration | 20 | ✓ 2+ real APIs with retries |
-| Code Clarity | 15 | ✓ Minimal, readable, organized |
-| Working Demo | 10 | ✓ Tested and verified |
-| Documentation | 10 | ✓ Complete with examples |
-| **Total** | **100** | **80-85** |
-
-**Pass Score: 70/100**
-**Current Estimate: 80-85/100 (Strong PASS)**
